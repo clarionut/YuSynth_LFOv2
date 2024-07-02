@@ -6,7 +6,7 @@ Alterations include
 - changes to some component values to reduce current draw
 - an increase in the pulse width range to allow very short (or long) pulses
 - a fix for glitches in the pulse wave output at low (< 1-2Hz) frequencies
-- a modification of the fix by Gabbagabi ( https://electro-music.com/forum/viewtopic.php?t=69587 ) for problems adjusting the triangle and sine wave symmetry at both high and low frequency settings
+- a modification of the fix by Gabbagabi (https://electro-music.com/forum/viewtopic.php?t=69587) for problems adjusting the triangle and sine wave symmetry at both high and low frequency settings
 - elimination of the 741 op-amp, replaced by the 'spare' TL074
 
 I recently built a second YuSynth LFOv2 for my DIY modular synthesiser. Having installed ammeters in the synth power supply I've become increasingly conscious of high current draw from some modules, and so modified some of the component values to help reduce this, possibly at the expense of some loss of linearity in the control potentiometers (though I haven't noticed this). I also wanted to be able to produce much shorter pulses than the 20-80% duty cycle range of the original. In both of these modules I eliminated the 741 in the rate/modulation input circuitry, instead using the spare op-amp in one of the TL074s (IC3a in the original circuit).

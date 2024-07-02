@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LFO_sync-rescue")(type "KiCad")(uri "${KIPRJMOD}/LFO_sync-rescue.kicad_sym")(options "")(descr ""))
+)

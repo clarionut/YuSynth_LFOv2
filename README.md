@@ -27,3 +27,5 @@ This is the new procedure for trimming the triangle/sine wave outputs:
 - iteratively adjust the SLOW SAW BIAS and SLOW GAIN trimmers to get a good triangle wave with no DC offset. These trimmers interact with each other, so make small adjustments to be sure you're going the right way. Do NOT touch the SINE/TRI SYM trimmer during this process.
 
 If there's an extreme imbalance between the FAST and SLOW settings you may need to adjust the value of R18 as well.
+
+The KiCad schematic and PCB design use some custom symbols and footprints, so you may need to include the contents of my kicad_libraries repository.

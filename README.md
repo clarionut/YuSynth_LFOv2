@@ -28,4 +28,4 @@ This is the new procedure for trimming the triangle/sine wave outputs:
 
 If there's an extreme imbalance between the FAST and SLOW settings you may need to adjust the value of R18 as well.
 
-The KiCad schematic and PCB design use some custom symbols and footprints, so you may need to include the contents of my kicad_libraries repository.
+The kiCad schematic and PCB design use some custom symbols and footprints, so you may need to include the contents of my kiCad_libraries repository.

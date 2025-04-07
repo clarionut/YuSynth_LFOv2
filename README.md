@@ -15,7 +15,7 @@ I found that both modules suffered the problem that it was impossible to set the
 
 An additional issue encountered using the pulse wave output as a sequencer clock was that at low frequencies (less that 1-2Hz) the sequencer would occasionally skip steps. Checking the output on a 'scope showed noise pulses at the start of the high phase of the pulse as the comparator (IC2c in the YuSynth original, U2D in my schematic) switched. Adding a high value positive feedback resistor on this comparator gave very clean switching and no more skipped steps from the sequencer.
 
-The original YuSynth schematic includes a ramp (inverted sawtooth) output via R18. I included this output on my PCB design, but didn't connect it to the panel. It is available if required though.
+The original YuSynth schematic includes a ramp (inverted sawtooth) output via R18 (on the YuSynth schematic, R24 here). I included this output on my PCB design, but didn't connect it to the panel. It is available if required though.
 
 This is the new procedure for trimming the triangle/sine wave outputs:
 - switch the LFO to the FAST (x1) setting
